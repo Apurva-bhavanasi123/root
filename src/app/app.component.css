@@ -1,17 +1,14 @@
 
-.whole{
-  width:100px;
-  background-color:rgb(62,66,73);
-  color:white;
-  height:100vh;
+.whole {
+  display:flex;
 }
 #icon {
-  padding: 0;
+  padding: 30px 0 0 0;
   width:60px;
 }
 .blurry{
   background-color:rgba(118,97,139,0.1);
-  padding:0px;
+  padding:0 0 0 55px;
 }
 .topbar{
   display:flex;
@@ -102,8 +99,15 @@
 }
 #navbar_color{
   background-color:rgb(118,97,139);
+  list-style-type:none;
+  margin:0;
+  
 }
 .title{
   color:white;
   padding:0;
+}
+.blurry{
+  background-color:rgba(118,97,139,0.7);
+
 }
